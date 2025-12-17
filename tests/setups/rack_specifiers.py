@@ -55,7 +55,7 @@ ECAT_DEN_S_PHASE2_SETUP = RackServiceConfigSpecifier.from_firmware(
     interface=Interface.ECAT,
     config_file=None,
     firmware=Path(
-        "//azr-srv-ingfs1/dist/products/i050_summit/i056_den-s-net-e/release_candidate/2.9.1.2/den-s-net-e_2.9.0.lfu"
+        "//azr-srv-ingfs1/dist/products/i050_summit/i056_den-s-net-e/release_candidate/2.9.1.2/den-s-net-e_2.9.1.002.lfu"
     ),
     dictionary=Path(
         "//azr-srv-ingfs1/dist/products/i050_summit/i056_den-s-net-e/release_candidate/2.9.1.2/den-s-net-e_2.9.1.002.xdf3"
