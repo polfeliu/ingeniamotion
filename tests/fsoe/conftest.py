@@ -322,7 +322,7 @@ def mc_with_fsoe_with_sra_and_feedback_scenario(
     # If there has been a failure and it tries to remove the PDO maps, it may fail
     # if the servo is not in preop state
     try:
-        if mc.capture.pdo.is_active:
+        if mc.capture.pdo.is_active():
             mc.fsoe.stop_master(stop_pdos=True)
     except Exception:
         pass
