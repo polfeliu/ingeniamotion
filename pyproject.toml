@@ -42,7 +42,7 @@ name = "PyPI"
 priority = "primary"
 
 [[tool.poetry.source]]
-name = "ingenia"
+name = "novanta"
 url = "http://pypi.novanta.com/simple"
 priority = "supplemental"
 
@@ -111,8 +111,8 @@ pytest-mock = "==3.6.1"
 pytest-rerunfailures = "==15.1"
 pytest-console-scripts = "==1.4.1"
 matplotlib = "==3.8.2"
-ingenialink = {extras = ["virtual_drive"], version = "7.5.2+pr666b7"}
-summit-testing-framework = {version = "==0.1.5+pr54b2"}
+ingenialink = {extras = ["virtual_drive"], version = "7.5.2+pr669b36"}
+summit-testing-framework = {version = "==0.1.5+pr55b1"}
 
 # -----------------------------------------------------------------------
 #                                   TASKS
