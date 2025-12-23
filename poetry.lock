@@ -1323,18 +1323,18 @@ reference = "novanta"
 
 [[package]]
 name = "ingenialink"
-version = "7.5.2+pr669b36"
+version = "7.5.2+pr677b9"
 description = "IngeniaLink Communications Library"
 optional = false
 python-versions = ">=3.9"
 groups = ["main", "tests"]
 files = [
-    {file = "ingenialink-7.5.2+pr669b36-cp310-cp310-win_amd64.whl", hash = "sha256:a357d82e2def4363d0b8e5d7d00169359841b9cb2db28d5840253d73a5bb073c"},
-    {file = "ingenialink-7.5.2+pr669b36-cp311-cp311-win_amd64.whl", hash = "sha256:f535f57b481c400cc4428607db8b5df4a2c37a25c60a0197242255cd54f13763"},
-    {file = "ingenialink-7.5.2+pr669b36-cp312-cp312-win_amd64.whl", hash = "sha256:c862f3346b801700bd2d5557d9113c2fa55c354ea2875e2dcb878e01860dcef6"},
-    {file = "ingenialink-7.5.2+pr669b36-cp39-cp39-win_amd64.whl", hash = "sha256:09e8e58c47c8973604215fdd9fdf82fd34ba4677c23f870a1e702fd3292ce202"},
-    {file = "ingenialink-7.5.2+pr669b36-py3-none-any.whl", hash = "sha256:278552d48d482020f2615287adcad6a98b0514008532994de25c4579be7e216b"},
-    {file = "ingenialink-7.5.2+pr669b36.tar.gz", hash = "sha256:2a4a67c1e544f95ff3ca8f8b3a9d4f2f0517f51b2c25d6870051e885b150e5a1"},
+    {file = "ingenialink-7.5.2+pr677b9-cp310-cp310-win_amd64.whl", hash = "sha256:2b8537dc171803150910ba5145b8dd114758883d6a133added681968c228512a"},
+    {file = "ingenialink-7.5.2+pr677b9-cp311-cp311-win_amd64.whl", hash = "sha256:08251a4b838a467c6bb6277ffc5d3bf49c304234bbfc5a99dca9a2559114b7b4"},
+    {file = "ingenialink-7.5.2+pr677b9-cp312-cp312-win_amd64.whl", hash = "sha256:01820335c4f37ef2f5c38dcc92a8cbf62d2e0b10c90e6b116d662fc792ee1e15"},
+    {file = "ingenialink-7.5.2+pr677b9-cp39-cp39-win_amd64.whl", hash = "sha256:2551705bc075bbdd673ef7397e9094a495095cb177b607f840950348a95abfdd"},
+    {file = "ingenialink-7.5.2+pr677b9-py3-none-any.whl", hash = "sha256:0d90477ec8c73576dd087a1d3921eed70ef8607251adbe1f7ea9bec0db6f481c"},
+    {file = "ingenialink-7.5.2+pr677b9.tar.gz", hash = "sha256:49372d9657fdfc81f1d9f471ab481f6c99d54496a70f378a047f31a7169e45e1"},
 ]
 
 [package.dependencies]
@@ -1475,14 +1475,14 @@ trio = ["trio"]
 
 [[package]]
 name = "jinja2"
-version = "3.1.4"
+version = "3.1.6"
 description = "A very fast and expressive template engine."
 optional = false
 python-versions = ">=3.7"
 groups = ["docs"]
 files = [
-    {file = "jinja2-3.1.4-py3-none-any.whl", hash = "sha256:bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d"},
-    {file = "jinja2-3.1.4.tar.gz", hash = "sha256:4a3aee7acbbe7303aede8e9648d13b8bf88a429282aa6122a993f0ac800cb369"},
+    {file = "jinja2-3.1.6-py3-none-any.whl", hash = "sha256:85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67"},
+    {file = "jinja2-3.1.6.tar.gz", hash = "sha256:0137fb05990d35f1275a587e9aee6d56da821fc83491a0fb838183be43f66d6d"},
 ]
 
 [package.dependencies]
@@ -2360,14 +2360,14 @@ test = ["pep440", "pre-commit", "pytest", "testpath"]
 
 [[package]]
 name = "nbsphinx"
-version = "0.9.4"
+version = "0.9.8"
 description = "Jupyter Notebook Tools for Sphinx"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.8"
 groups = ["docs"]
 files = [
-    {file = "nbsphinx-0.9.4-py3-none-any.whl", hash = "sha256:22cb1d974a8300e8118ca71aea1f649553743c0c5830a54129dcd446e6a8ba17"},
-    {file = "nbsphinx-0.9.4.tar.gz", hash = "sha256:042a60806fc23d519bc5bef59d95570713913fe442fda759d53e3aaf62104794"},
+    {file = "nbsphinx-0.9.8-py3-none-any.whl", hash = "sha256:92d95ee91784e56bc633b60b767a6b6f23a0445f891e24641ce3c3f004759ccf"},
+    {file = "nbsphinx-0.9.8.tar.gz", hash = "sha256:d0765908399a8ee2b57be7ae881cf2ea58d66db3af7bbf33e6eb48f83bea5495"},
 ]
 
 [package.dependencies]
@@ -2375,7 +2375,7 @@ docutils = ">=0.18.1"
 jinja2 = "*"
 nbconvert = ">=5.3,<5.4 || >5.4"
 nbformat = "*"
-sphinx = ">=1.8"
+sphinx = ">=1.8,<8.2.0 || >8.2.0,<8.2.1 || >8.2.1"
 traitlets = ">=5"
 
 [[package]]
@@ -3029,14 +3029,14 @@ files = [
 
 [[package]]
 name = "pytest"
-version = "8.4.1"
+version = "8.4.2"
 description = "pytest: simple powerful testing with Python"
 optional = false
 python-versions = ">=3.9"
 groups = ["tests"]
 files = [
-    {file = "pytest-8.4.1-py3-none-any.whl", hash = "sha256:539c70ba6fcead8e78eebbf1115e8b589e7565830d7d006a8723f19ac8a0afb7"},
-    {file = "pytest-8.4.1.tar.gz", hash = "sha256:7c67fd69174877359ed9371ec3af8a3d2b04741818c51e5e99cc1742251fa93c"},
+    {file = "pytest-8.4.2-py3-none-any.whl", hash = "sha256:872f880de3fc3a5bdc88a11b39c9710c3497a547cfa9320bc3c5e62fbf272e79"},
+    {file = "pytest-8.4.2.tar.gz", hash = "sha256:86c0d0b93306b961d58d62a4db4879f27fe25513d4b969df351abdddb3c30e01"},
 ]
 
 [package.dependencies]
@@ -4053,22 +4053,25 @@ test = ["pytest"]
 
 [[package]]
 name = "sphinxcontrib-bibtex"
-version = "2.6.2"
+version = "2.6.5"
 description = "Sphinx extension for BibTeX style citations."
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.9"
 groups = ["docs"]
 files = [
-    {file = "sphinxcontrib-bibtex-2.6.2.tar.gz", hash = "sha256:f487af694336f28bfb7d6a17070953a7d264bec43000a2379724274f5f8d70ae"},
-    {file = "sphinxcontrib_bibtex-2.6.2-py3-none-any.whl", hash = "sha256:10d45ebbb19207c5665396c9446f8012a79b8a538cb729f895b5910ab2d0b2da"},
+    {file = "sphinxcontrib_bibtex-2.6.5-py3-none-any.whl", hash = "sha256:455ea4509642ea0b28ede3721550273626f85af65af01f161bfd8e19dc1edd7d"},
+    {file = "sphinxcontrib_bibtex-2.6.5.tar.gz", hash = "sha256:9b3224dd6fece9268ebd8c905dc0a83ff2f6c54148a9235fe70e9d1e9ff149c0"},
 ]
 
 [package.dependencies]
 docutils = ">=0.8,<0.18.dev0 || >=0.20.dev0"
-importlib-metadata = {version = ">=3.6", markers = "python_version < \"3.10\""}
-pybtex = ">=0.24"
+importlib_metadata = {version = ">=3.6", markers = "python_version < \"3.10\""}
+pybtex = ">=0.25"
 pybtex-docutils = ">=1.0.0"
 Sphinx = ">=3.5"
+
+[package.extras]
+test = ["pytest", "pytest-cov", "sphinx-autoapi"]
 
 [[package]]
 name = "sphinxcontrib-devhelp"
@@ -4755,4 +4758,4 @@ fsoe = ["fsoe_master"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9"
-content-hash = "6f0d0fc4d456601f425c18b1e7f0794579a0fb752edb8b3cbf1a81834ab327d9"
+content-hash = "72b55b0cde895a65dea7cf681be570ada869c32fa6425fe219862f5051d96363"
