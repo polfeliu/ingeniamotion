@@ -7,7 +7,7 @@
       "matchStrings": [
         "(?<depName>\\S+):\\s+(?<packageName>.+?)(?<currentValue>[0-9.]+)/?\\s*$"
       ],
-      "datasourceTemplate": "dist-datasource"
+      "datasourceTemplate": "custom.dist"
     }
   ]
 }
