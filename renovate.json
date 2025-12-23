@@ -1,9 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "packageRules": [
+  "customManagers": [
     {
-      "packagePattern": ".*new",
-      "matchFileNames": ["test-versions.json"]
+      "customType": "regex",
+      "fileMatch": ["test-versions\\.ya?ml$"],
+      "matchStrings": [
+        "(?<depName>\\S+):\\s+(?<packageName>.+?)(?<currentVersion>[0-9.]+)/?\\s*$"
+      ],
+      "datasourceTemplate": "dist-datasource"
     }
   ]
 }
