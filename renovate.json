@@ -5,7 +5,7 @@
       "customType": "regex",
       "fileMatch": ["test-versions\\.ya?ml$"],
       "matchStrings": [
-        "(?<depName>\\S+):\\s+(?<packageName>.+?)(?<currentValue>[0-9.]+)/?\\s*$"
+        "(?<depName>\\S+):\\s+(?<packageName>.+?)\\s+(?<currentValue>[0-9.]+)/?\\s*$"
       ],
       "datasourceTemplate": "custom.dist"
     }
