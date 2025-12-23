@@ -1,3 +1,11 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "datasource": "dist-datasource",
+      "depName": "/mnt/dist",
+      "packagePattern": ".*new",
+      "matchFileNames": ["test-versions.json"]
+    }
+  ]
 }
